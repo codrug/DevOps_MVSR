@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<script language=javascript>
+			function change(c){
+				switch(c){
+					case 'red':document.bgColor="red";
+						break;
+					case 'blue':document.bgColor="blue";
+						break;
+					case 'green':document.bgColor="green";
+						break;
+					case 'magenta':document.bgColor="magenta";
+						break;
+					case 'brown':document.bgColor="brown";
+						break;
+					case 'grey':document.bgColor="grey";
+						break;
+					case 'black':document.bgColor="black";
+						break;
+				}
+			}
+		</script>
+	</head>
+	<body align="center">
+		<h2></h2>
+		<h3><button name="bgcolor" onmouseover="change('red')"
+			onmouseleave="change('black')">RED<br>
+		</h3>
+		<h3><button name="bgcolor" onmouseover="change('blue')" 
+			onmouseleave="change('black')">BLUE<br></h3>
+		<h3><button name="bgcolor" onmouseover="change('green')" 
+			onmouseleave="change('black')">GREEN<br></h3>
+		<h3><button name="bgcolor" onmouseover="change('magenta')" 
+			onmouseleave="change('black')">MAGENTA<br></h3>
+		<h3><button name="bgcolor" onmouseover="change('brown')" 
+			onmouseleave="change('black')">BROWN<br></h3>
+		<h3><button name="bgcolor" onmouseover="change('grey')" 	
+			onmouseleave="change('black')">GREY<br></h3>
+		<button  onClick="window.open("loginpg1.html")">Login</button>
+	</body>
+</html>
