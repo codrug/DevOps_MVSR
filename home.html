@@ -18,6 +18,9 @@
 					case 'black':document.bgColor="black";
 						break;
 				}
+				function open(){
+					window.open("loginpg1.html");					
+				}
 			}
 		</script>
 	</head>
@@ -36,6 +39,6 @@
 			onmouseleave="change('black')">BROWN<br></h3>
 		<h3><button name="bgcolor" onmouseover="change('grey')" 	
 			onmouseleave="change('black')">GREY<br></h3>
-		<button  onClick="window.open("loginpg1.html")">Login</button>
+		<button name="loginbtn" onClick="open()">Login</button>
 	</body>
 </html>
